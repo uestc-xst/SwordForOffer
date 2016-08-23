@@ -11,6 +11,7 @@ this repository provide `JAVA` source code for swordforoffer<br>
 [二进制中1的个数](https://github.com/uestc-xst/SwordForOffer/blob/master/src/com/uestc/xst/NumberOf1.java)<br>
 [数值的整数次方](https://github.com/uestc-xst/SwordForOffer/blob/master/src/com/uestc/xst/Power.java)<br>
 [调整数组顺序使奇数位于偶数前面](https://github.com/uestc-xst/SwordForOffer/blob/master/src/com/uestc/xst/ReOrderArray.java)<br>
+[链表中倒数第k个结点](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/FindKthToTail.java)<br>
 
 代码持续更新中...
 
