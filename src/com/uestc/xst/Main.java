@@ -16,11 +16,13 @@ public class Main {
 /*		int result = JumpFloorII.JumpFloorII(3);
 		System.out.println(result);*/
 		
-		int cnt = NumberOf1.NumberOf11(-1234567);
+/*		int cnt = NumberOf1.NumberOf11(-1234567);
 		System.out.println(Integer.toHexString(-1234567));
-		System.out.println(cnt);
+		System.out.println(cnt);*/
 		
-
+		int[] array = {1,2,3,4,5,6,7};
+		ReOrderArray.reOrderArray(array);
+		
 	}
 
 }
