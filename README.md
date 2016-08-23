@@ -13,6 +13,7 @@ this repository provide `JAVA` source code for swordforoffer<br>
 [调整数组顺序使奇数位于偶数前面](https://github.com/uestc-xst/SwordForOffer/blob/master/src/com/uestc/xst/ReOrderArray.java)<br>
 [链表中倒数第k个结点](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/FindKthToTail.java)<br>
 [反转链表](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/ReverseList.java)<br>
+[合并两个排序的链表](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/Merge.java)<br
 
 代码持续更新中...
 
