@@ -6,7 +6,6 @@ this repository provide `JAVA` source code for swordforoffer<br>
 ----------------------
 
 [二维数组中的查找](https://github.com/uestc-xst/SwordForOffer/blob/master/src/com/uestc/xst/Find.java)<br>
-<br>
 [跳台阶](https://github.com/uestc-xst/SwordForOffer/blob/master/src/com/uestc/xst/JumpFloor.java)<br>
 [变态跳台阶](https://github.com/uestc-xst/SwordForOffer/blob/master/src/com/uestc/xst/JumpFloorII.java)<br>
 [二进制中1的个数](https://github.com/uestc-xst/SwordForOffer/blob/master/src/com/uestc/xst/NumberOf1.java)<br>
@@ -15,6 +14,7 @@ this repository provide `JAVA` source code for swordforoffer<br>
 [链表中倒数第k个结点](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/FindKthToTail.java)<br>
 [反转链表](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/ReverseList.java)<br>
 [合并两个排序的链表](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/Merge.java)<br>
+[二叉树的镜像](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/Mirror.java)<br>
 
 代码持续更新中...
 
