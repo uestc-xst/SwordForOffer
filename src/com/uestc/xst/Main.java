@@ -36,8 +36,11 @@ public class Main {
 		nodes[3].next = nodes[4];
 		nodes[4].next = nodes[5];
 		
-		ListNode head = FindKthToTail.FindKthToTail(nodes[0], 6);
-		System.out.println(head.val);
+/*		ListNode head = FindKthToTail.FindKthToTail(nodes[0], 6);
+		System.out.println(head.val);*/
+		
+		ListNode tail = ReverseList.ReverseList(nodes[0]);
+		System.out.println(tail.val);
 		
 	}
 
