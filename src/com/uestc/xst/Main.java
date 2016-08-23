@@ -30,17 +30,28 @@ public class Main {
 		nodes[3] = new ListNode(3);
 		nodes[4] = new ListNode(4);
 		nodes[5] = new ListNode(5);
-		nodes[0].next = nodes[1];
+/*		nodes[0].next = nodes[1];
 		nodes[1].next = nodes[2];
 		nodes[2].next = nodes[3];
 		nodes[3].next = nodes[4];
-		nodes[4].next = nodes[5];
+		nodes[4].next = nodes[5];*/
+		
+		
 		
 /*		ListNode head = FindKthToTail.FindKthToTail(nodes[0], 6);
 		System.out.println(head.val);*/
 		
-		ListNode tail = ReverseList.ReverseList(nodes[0]);
-		System.out.println(tail.val);
+/*		ListNode tail = ReverseList.ReverseList(nodes[0]);
+		System.out.println(tail.val);*/
+		
+		nodes[0].next = nodes[2];
+		nodes[2].next = nodes[4];
+		nodes[1].next = nodes[3];
+		nodes[3].next = nodes[5];
+	
+		ListNode result = Merge.Merge(nodes[0], nodes[1]);
+		System.out.println(result.val);
+		
 		
 	}
 
