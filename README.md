@@ -13,3 +13,7 @@ this repository provide `JAVA` source code for swordforoffer<br>
 [调整数组顺序使奇数位于偶数前面](https://github.com/uestc-xst/SwordForOffer/blob/master/src/com/uestc/xst/ReOrderArray.java)<br>
 
 代码持续更新中...
+
+----------------------
+
+
