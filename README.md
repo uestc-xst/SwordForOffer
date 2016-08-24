@@ -17,6 +17,8 @@ this repository provide `JAVA` source code for swordforoffer<br>
 [二叉树的镜像](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/Mirror.java)<br>
 [斐波那契数列](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/Fibonacci.java)<br>
 [旋转数组的最小数字](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/MinNumberInRotateArray.java)<br>
+[树的子结构](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/HasSubtree.java)<br>
+[顺时针打印矩阵](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/PrintMatrix.java)<br>
 
 代码持续更新中...
 
