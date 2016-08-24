@@ -1,5 +1,7 @@
 package com.uestc.xst;
 
+import java.util.ArrayList;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -23,14 +25,14 @@ public class Main {
 /*		int[] array = {1,2,3,4,5,6,7};
 		ReOrderArray.reOrderArray(array);*/
 		
-		ListNode[] nodes = new ListNode[6];
+/*		ListNode[] nodes = new ListNode[6];
 		nodes[0] = new ListNode(0);
 		nodes[1] = new ListNode(1);
 		nodes[2] = new ListNode(2);
 		nodes[3] = new ListNode(3);
 		nodes[4] = new ListNode(4);
 		nodes[5] = new ListNode(5);
-/*		nodes[0].next = nodes[1];
+		nodes[0].next = nodes[1];
 		nodes[1].next = nodes[2];
 		nodes[2].next = nodes[3];
 		nodes[3].next = nodes[4];
@@ -44,13 +46,46 @@ public class Main {
 /*		ListNode tail = ReverseList.ReverseList(nodes[0]);
 		System.out.println(tail.val);*/
 		
-		nodes[0].next = nodes[2];
+/*		nodes[0].next = nodes[2];
 		nodes[2].next = nodes[4];
 		nodes[1].next = nodes[3];
 		nodes[3].next = nodes[5];
 	
 		ListNode result = Merge.Merge(nodes[0], nodes[1]);
-		System.out.println(result.val);
+		System.out.println(result.val);*/
+		
+/*//		int[][] array = new int[][]{{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+		int[][] array = new int[][]{{1,2,3,4},{5,6,7,8},{9,10,11,12}};
+//		int[][] array = new int[][]{{1,2,3},{5,6,7},{9,10,11},{13,14,15}};
+//		int[][] array = new int[][]{{1,2,3},{5,6,7}};
+///		int[][] array = new int[][]{{1,2},{5,6},{3,4}};
+		ArrayList<Integer> resultlist = PrintMatrix.printMatrix(array);
+		System.out.println(resultlist.size());*/
+		
+/*		TreeNode[] nodes = new TreeNode[5];
+		nodes[0] = new TreeNode(8);
+		nodes[1] = new TreeNode(8);
+		nodes[2] = new TreeNode(9);
+		nodes[3] = new TreeNode(2);
+		nodes[4] = new TreeNode(5);
+		
+		nodes[0].left = nodes[1];
+		nodes[1].left = nodes[2];
+		nodes[2].left = nodes[3];
+		nodes[3].left = nodes[4];
+
+		
+		TreeNode[] list = new TreeNode[3];
+		list[0] = new TreeNode(8);
+		list[1] = new TreeNode(9);
+		list[2] = new TreeNode(2);
+		list[0].left = list[1];
+		list[1].left = list[2];
+		
+		
+		boolean bsub = HasSubtree.HasSubtree(nodes[0], list[0]);
+		System.out.println(bsub);*/
+		
 		
 		
 	}
