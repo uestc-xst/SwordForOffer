@@ -20,6 +20,7 @@ this repository provide `JAVA` source code for swordforoffer<br>
 [树的子结构](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/HasSubtree.java)<br>
 [顺时针打印矩阵](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/PrintMatrix.java)<br>
 [包含min函数的栈](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/MinFuncInStack.java)<br>
+[栈的压入、弹出序列](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/IsPopOrder.java)<br>
 
 代码持续更新中...
 
