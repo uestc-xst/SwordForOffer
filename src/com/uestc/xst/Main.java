@@ -86,7 +86,11 @@ public class Main {
 		boolean bsub = HasSubtree.HasSubtree(nodes[0], list[0]);
 		System.out.println(bsub);*/
 		
-		
+
+		int[] pushA = new int[]{1};
+		int[] popA = new int[]{2};
+		boolean bpoporder = IsPopOrder.IsPopOrder(pushA, popA);
+		System.out.println(bpoporder);
 		
 	}
 
