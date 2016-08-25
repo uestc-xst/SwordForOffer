@@ -62,7 +62,7 @@ public class Main {
 		ArrayList<Integer> resultlist = PrintMatrix.printMatrix(array);
 		System.out.println(resultlist.size());*/
 		
-/*		TreeNode[] nodes = new TreeNode[5];
+		TreeNode[] nodes = new TreeNode[5];
 		nodes[0] = new TreeNode(8);
 		nodes[1] = new TreeNode(8);
 		nodes[2] = new TreeNode(9);
@@ -83,14 +83,18 @@ public class Main {
 		list[1].left = list[2];
 		
 		
-		boolean bsub = HasSubtree.HasSubtree(nodes[0], list[0]);
+/*		boolean bsub = HasSubtree.HasSubtree(nodes[0], list[0]);
 		System.out.println(bsub);*/
 		
 
-		int[] pushA = new int[]{1};
+/*		int[] pushA = new int[]{1};
 		int[] popA = new int[]{2};
 		boolean bpoporder = IsPopOrder.IsPopOrder(pushA, popA);
-		System.out.println(bpoporder);
+		System.out.println(bpoporder);*/
+		
+		
+		ArrayList<Integer> nodeslist = PrintFromTopToBottom.PrintFromTopToBottom(nodes[0]);
+		System.out.println(nodeslist.size());
 		
 	}
 
