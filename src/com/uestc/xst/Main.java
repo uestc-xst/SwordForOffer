@@ -2,6 +2,8 @@ package com.uestc.xst;
 
 import java.util.ArrayList;
 
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -62,7 +64,7 @@ public class Main {
 		ArrayList<Integer> resultlist = PrintMatrix.printMatrix(array);
 		System.out.println(resultlist.size());*/
 		
-		TreeNode[] nodes = new TreeNode[5];
+/*		TreeNode[] nodes = new TreeNode[5];
 		nodes[0] = new TreeNode(8);
 		nodes[1] = new TreeNode(8);
 		nodes[2] = new TreeNode(9);
@@ -80,7 +82,7 @@ public class Main {
 		list[1] = new TreeNode(9);
 		list[2] = new TreeNode(2);
 		list[0].left = list[1];
-		list[1].left = list[2];
+		list[1].left = list[2];*/
 		
 		
 /*		boolean bsub = HasSubtree.HasSubtree(nodes[0], list[0]);
@@ -93,9 +95,38 @@ public class Main {
 		System.out.println(bpoporder);*/
 		
 		
-		ArrayList<Integer> nodeslist = PrintFromTopToBottom.PrintFromTopToBottom(nodes[0]);
-		System.out.println(nodeslist.size());
+/*		ArrayList<Integer> nodeslist = PrintFromTopToBottom.PrintFromTopToBottom(nodes[0]);
+		System.out.println(nodeslist.size());*/
 		
+/*		int[] array = new int[]{4,6,7,5};
+		boolean bBST = VerifySquenceOfBST.VerifySquenceOfBST(array);
+		System.out.println(bBST);*/
+		
+		TreeNode[] nodes = new TreeNode[8];
+		
+		nodes[0] = new TreeNode(1);
+		nodes[1] = new TreeNode(5);
+		nodes[2] = new TreeNode(3);
+		nodes[3] = new TreeNode(7);
+		nodes[4] = new TreeNode(9);
+		nodes[5] = new TreeNode(11);
+		nodes[6] = new TreeNode(2);
+		nodes[7] = new TreeNode(2);
+		
+		nodes[0].left = nodes[1];
+		nodes[0].right = nodes[2];
+		nodes[1].left = nodes[3];
+		nodes[1].right = nodes[4];
+		nodes[2].left = nodes[5];
+		nodes[4].left = nodes[6];
+		nodes[5].right = nodes[7];
+		
+		ArrayList<ArrayList<Integer>> hs = FindPath.FindPath(nodes[0], 17);
+		System.out.println(hs.size());
+		
+
+		
+
 	}
 
 }
