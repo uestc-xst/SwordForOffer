@@ -2,8 +2,6 @@ package com.uestc.xst;
 
 import java.util.ArrayList;
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -102,7 +100,7 @@ public class Main {
 		boolean bBST = VerifySquenceOfBST.VerifySquenceOfBST(array);
 		System.out.println(bBST);*/
 		
-		TreeNode[] nodes = new TreeNode[8];
+/*		TreeNode[] nodes = new TreeNode[8];
 		
 		nodes[0] = new TreeNode(1);
 		nodes[1] = new TreeNode(5);
@@ -122,10 +120,24 @@ public class Main {
 		nodes[5].right = nodes[7];
 		
 		ArrayList<ArrayList<Integer>> hs = FindPath.FindPath(nodes[0], 17);
-		System.out.println(hs.size());
+		System.out.println(hs.size());*/
 		
-
+		RandomListNode randomNode[] = new RandomListNode[5];
+		randomNode[0] = new RandomListNode(10);
+		randomNode[1] = new RandomListNode(11);
+		randomNode[2] = new RandomListNode(12);
+		randomNode[3] = new RandomListNode(13);
+		randomNode[4] = new RandomListNode(14);
+		randomNode[0].next = randomNode[1];
+		randomNode[0].random = randomNode[2];
+		randomNode[1].next = randomNode[2];
+		randomNode[1].random = randomNode[4];
+		randomNode[2].next = randomNode[3];
+		randomNode[3].next = randomNode[4];
+		randomNode[3].random = randomNode[1];
 		
+		RandomListNode head = CloneRandomListNode.Clone(randomNode[0]);
+		System.out.println(head.label);
 
 	}
 
