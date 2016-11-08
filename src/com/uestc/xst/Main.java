@@ -122,7 +122,7 @@ public class Main {
 		ArrayList<ArrayList<Integer>> hs = FindPath.FindPath(nodes[0], 17);
 		System.out.println(hs.size());*/
 		
-		RandomListNode randomNode[] = new RandomListNode[5];
+/*		RandomListNode randomNode[] = new RandomListNode[5];
 		randomNode[0] = new RandomListNode(10);
 		randomNode[1] = new RandomListNode(11);
 		randomNode[2] = new RandomListNode(12);
@@ -137,7 +137,13 @@ public class Main {
 		randomNode[3].random = randomNode[1];
 		
 		RandomListNode head = CloneRandomListNode.Clone(randomNode[0]);
-		System.out.println(head.label);
+		System.out.println(head.label);*/
+		
+		int UglyNumber = GetUglyNumber_Solution.GetUglyNumber_Solution(15);
+		System.out.println(UglyNumber);
+		
+		boolean test = GetUglyNumber_Solution.bUglyNumber2(26);
+		System.out.println(test);
 
 	}
 
