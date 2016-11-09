@@ -88,4 +88,54 @@ public class GetUglyNumber_Solution {
     	return (num==1)?true:false;
     	
     }
+    
+    
+    /**
+     * 计算第index个丑数值
+     * 用数组保存计算得到的丑数，用空间换时间，只计算丑数，对于非丑数不进行计算
+     * 计算：对于前6个数，丑数和索引值相等，后面的第一个丑数都是前面的丑数和2、3、5的乘积第一个大于前面最后一个数的最小值
+     * @param index
+     * @return
+     */
+    public static int GetUglyNumber_Solution2(int index){
+    	
+    	int[] uglyarr = new int[index];
+
+    	int m2 = 0, m3 = 0, m5 = 0;
+    	int m2_temp = 0, m3_temp = 0, m5_temp = 0;
+    	
+    	if (index<7) {
+			return index;
+		}
+    	
+    	for(int i=0;i<6;i++){
+    		uglyarr[i] = i+1;
+    	}
+    	
+    	for(int i=6;i<index;i++){
+    		m2 = 0;
+    		m3 = 0;
+    		m5 = 0;
+    		for(int j=0;j<i;j++){
+    			m2_temp = 2*uglyarr[j];
+    			m3_temp = 3*uglyarr[j];
+    			m5_temp = 5*uglyarr[j];
+    			if (m2_temp>uglyarr[i-1]&&m2==0) {
+					m2 = m2_temp;
+				}
+    			if (m3_temp>uglyarr[i-1]&&m3==0) {
+					m3 = m3_temp;
+				}
+    			if (m5_temp>uglyarr[i-1]&&m5==0) {
+					m5 = m5_temp;
+				}
+    			if(m2!=0&&m3!=0&&m5!=0){
+    				break;
+    			}
+    		}
+    		uglyarr[i] = m2>m3?(m3>m5?m5:m3):(m2>m5?m5:m2);
+    	}
+		return uglyarr[index-1];
+    	
+    }
 }

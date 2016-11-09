@@ -139,10 +139,10 @@ public class Main {
 		RandomListNode head = CloneRandomListNode.Clone(randomNode[0]);
 		System.out.println(head.label);*/
 		
-		int UglyNumber = GetUglyNumber_Solution.GetUglyNumber_Solution(15);
-		System.out.println(UglyNumber);
+/*		int UglyNumber = GetUglyNumber_Solution.GetUglyNumber_Solution(37);
+		System.out.println(UglyNumber);*/
 		
-		boolean test = GetUglyNumber_Solution.bUglyNumber2(26);
+		int test = GetUglyNumber_Solution.GetUglyNumber_Solution2(1537);
 		System.out.println(test);
 
 	}
