@@ -1,6 +1,15 @@
 package com.uestc.xst;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.SortedMap;
+import java.util.TreeMap;
 
 public class Main {
 
@@ -142,9 +151,53 @@ public class Main {
 /*		int UglyNumber = GetUglyNumber_Solution.GetUglyNumber_Solution(37);
 		System.out.println(UglyNumber);*/
 		
-		int test = GetUglyNumber_Solution.GetUglyNumber_Solution2(1537);
-		System.out.println(test);
+/*		int test = GetUglyNumber_Solution.GetUglyNumber_Solution2(1537);
+		System.out.println(test);*/
 
+		/*HashMap<String,String> map=new HashMap<String, String>();  
+		  map.put("1","11");  
+		  map.put("2", "22");  
+		  map.put("3", "33");  
+		  for (Entry<String,String> entry: map.entrySet()) {  
+		   System.out.println("排序之前:"+entry.getKey()+" 值"+entry.getValue());  
+		     
+		  }  
+		  System.out.println("======================================================");  
+		  SortedMap<String,String> sort=new TreeMap<String,String>(map);  
+		  Set<Entry<String,String>> entry1=sort.entrySet();  
+		  Iterator<Entry<String,String>> it=entry1.iterator();  
+		  while(it.hasNext())  
+		  {  
+		   Entry<String,String> entry=it.next();  
+		   System.out.println("排序之后:"+entry.getKey()+" 值"+entry.getValue());  
+		  }  */
+
+		/**------------搜索二叉树转换为双向链表测试用例------------**/
+		TreeNode[] tree = new TreeNode[7];
+		tree[0] = new TreeNode(10);
+		tree[1] = new TreeNode(6);
+		tree[2] = new TreeNode(14);
+		tree[3] = new TreeNode(4);
+		tree[4] = new TreeNode(8);
+		tree[5] = new TreeNode(12);
+		tree[6] = new TreeNode(16);
+		tree[0].left = tree[1];
+		tree[0].right = tree[2];
+		tree[1].left = tree[3];
+		tree[1].right = tree[4];
+		tree[2].left = tree[5];
+		tree[2].right = tree[6];
+		
+//		HashMap<Integer, TreeNode> map = new HashMap<>();
+//		BinaryTreeToList.GetTreeNodes(tree[0], map);
+//		Iterator<Entry<Integer, TreeNode>> iterator = map.entrySet().iterator();
+//		while(iterator.hasNext()){
+//			System.out.println(iterator.next().getKey());
+//		}
+
+		TreeNode listhead = BinaryTreeToList.Convert2(tree[0]);
+		System.out.println(listhead.val);
+		  
 	}
 
 }
