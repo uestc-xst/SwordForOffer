@@ -173,7 +173,7 @@ public class Main {
 		  }  */
 
 		/**------------搜索二叉树转换为双向链表测试用例------------**/
-		TreeNode[] tree = new TreeNode[7];
+/*		TreeNode[] tree = new TreeNode[7];
 		tree[0] = new TreeNode(10);
 		tree[1] = new TreeNode(6);
 		tree[2] = new TreeNode(14);
@@ -196,8 +196,16 @@ public class Main {
 //		}
 
 		TreeNode listhead = BinaryTreeToList.Convert2(tree[0]);
-		System.out.println(listhead.val);
+		System.out.println(listhead.val);*/
 		  
+		ArrayList<String> aList = ArrayString.Permutation("abc");
+		for (String string : aList) {
+			System.out.println(string);
+		}
+		
+		
+
+		
 	}
 
 }
