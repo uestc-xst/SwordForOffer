@@ -26,6 +26,7 @@ this repository provide `JAVA` source code for swordforoffer<br>
 [复杂链表的复制](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/CloneRandomListNode.java)<br>
 [丑数](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/GetUglyNumber_Solution.java)<br>
 [*二叉搜索树与双向链表](https://github.com/uestc-xst/SwordForOffer/blob/master/src/com/uestc/xst/BinaryTreeToList.java)<br>
+[**字符串重新排列**](https://github.com/uestc-xst/SwordForOffer/blob/dev/src/com/uestc/xst/ArrayString.java)<br>
 
 代码持续更新中...
 
